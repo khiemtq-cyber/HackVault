@@ -238,11 +238,11 @@ As you might have already noticed, the polyglot has been crafted with filter eva
 
 `jaVasCript:`, `oNcliCk`, et al: Bypasses ```preg_replace('/\b(?:javascript:|on\w+=)/', '', payload)```.
 
-`--!>`: Bypasses ```preg_replace('/-->/', '', payload)```.
-
 ``` /*`/*\` ```: Bypasses ```preg_replace('/`/', '\`', payload)```.
 
 ``` </stYle/</titLe/</teXtarEa/</scRipt/--!> ```: Bypasses ```preg_replace('<\/\w+>', '', payload)```.
+
+`--!>`: Bypasses ```preg_replace('/-->/', '', payload)```.
 
 ``` <sVg/oNloAd=alert()//> ```: Bypasses ```preg_replace('<\w+\s+', '', payload)```.
 

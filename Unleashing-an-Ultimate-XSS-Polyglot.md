@@ -240,27 +240,27 @@ As you might have already noticed, the polyglot has been crafted with filter eva
 
 * `jaVasCript:`, `oNcliCk`, et al. bypasses: 
 ```php
-preg_replace('/\b(?:javascript:|on\w+=)/', '', payload);
+preg_replace('/\b(?:javascript:|on\w+=)/', '', $payload);
 ```
 
 * ``` /*`/*\` ``` bypasses: 
 ```php
-preg_replace('/`/', '\`', payload);
+preg_replace('/`/', '\`', $payload);
 ```
 
 * ``` </stYle/</titLe/</teXtarEa/</scRipt/--!> ``` bypasses: 
 ```php
-preg_replace('/<\/\w+>/', '', payload);
+preg_replace('/<\/\w+>/', '', $payload);
 ```
 
 * `--!>` bypasses: 
 ```php
-preg_replace('/-->/', '', payload);
+preg_replace('/-->/', '', $payload);
 ```
 
 * ``` <sVg/oNloAd=alert()//> ``` bypasses:
 ```php
-preg_replace('/<\w+\s+/', '', payload);
+preg_replace('/<\w+\s+/', '', $payload);
 ```
 
 ## Bonus attacking contexts covered:

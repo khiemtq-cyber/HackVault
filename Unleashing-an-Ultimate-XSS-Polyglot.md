@@ -245,7 +245,7 @@ _Demo: <https://jsbin.com/puboha>_
 ## Filter evasion:
 As you might have already noticed, the polyglot has been crafted with filter evasion in mind. For instance:
 
-* `jaVasCript:`, `oNcliCk`, et al. bypasses: 
+* `jaVasCript:`, `oNcliCk=`, et al. bypasses: 
 ```php
 preg_replace('/\b(?:javascript:|on\w+=)/', '', PAYLOAD);
 ```

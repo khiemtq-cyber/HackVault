@@ -14,8 +14,8 @@ Given a domain name, the code below automates the reconnaissance process of web 
 
 ## Dependencies:
 ###### All dependencies come preinstalled on Kali Linux 1.0 and later versions.
-* [Nmap](https://nmap.org)
 * [DIG](https://en.wikipedia.org/wiki/Dig_(command))
+* [Nmap](https://nmap.org)
 * [WHOIS](https://en.wikipedia.org/wiki/WHOIS#Software)
 * [WPScan](https://wpscan.org)
 

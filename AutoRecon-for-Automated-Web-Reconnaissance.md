@@ -17,6 +17,7 @@ Given a domain name, the code below automates the reconnaissance process of web 
 * [Nmap](https://nmap.org)
 * [DIG](https://en.wikipedia.org/wiki/Dig_(command))
 * [WHOIS](https://en.wikipedia.org/wiki/WHOIS#Software)
+* [WPScan](https://wpscan.org)
 
 ## How to use:
 Open your terminal (preferably from Kali Linux) and execute the script below using this command:

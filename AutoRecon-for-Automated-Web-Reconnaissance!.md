@@ -2,7 +2,15 @@
 Reconnaissance being the first step of every web application pentest, it's a repetitive process that's to be done in a systematic way. Thus, it's most beneficial to try automating it as much as possible. So, it turns out that in just about 70 lines of code, we might simply achieve that very objective!
 
 ## What is this all about?
-Given a domain name, the code below automates the reconnaissance process of web hacking. It simply collects various information about the target domain name. That includes (but not limited to): WHOIS records, open ports, subdomains, subnet active hosts, unprotected config files, SPF records, directories, and what WAFs are used if any....
+Given a domain name, the code below automates the reconnaissance process of web hacking. It simply collects various information about the target domain name. That includes (but not limited to): 
+* Subdomains
+* Open ports
+* Directories
+* SPF records
+* WHOIS records
+* WAFs used (if any)
+* Subnet active hosts
+* Unprotected config files
 
 ## Dependencies:
 ###### All dependencies come preinstalled on Kali Linux 1.0 and later versions.

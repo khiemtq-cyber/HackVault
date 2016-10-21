@@ -48,7 +48,7 @@ def main():
         raise
     procs = []
     whois_cmd = ['whois', domain]
-    wpscan_cmd = ['wpscan', '--url', domain]
+    wpscan_cmd = ['wpscan', '--update --url', domain]
     dig_cmd = ['dig', '-t', 'txt', '+short', domain]
     nmap_hosts_cmd = ['nmap', '-sn', ip_address + '/24']
     nmap_enum_cmd = ['nmap', '-Pn', '-sn', '--script=http-enum', domain]

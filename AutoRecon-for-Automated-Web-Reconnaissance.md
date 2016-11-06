@@ -105,6 +105,6 @@ if __name__ == '__main__':
 
 ## Screenshot(s):
 [![terminal.jpg](https://s3.postimg.org/fg0j4bi8j/terminal.jpg)](https://s3.postimg.org/fg0j4bi8j/terminal.jpg)
-[![AutoRecon.png](https://s22.postimg.org/7am1o71n5/Auto_Recon.png)](https://postimg.org/image/n8urebvv1/)
+[![AutoRecon2.png](https://s14.postimg.org/yj6ok50r5/Auto_Recon2.png)](https://postimg.org/image/ebt8ru39p/)
 ## Bottom Line:
 If you find the stuff in this repo very helpful, you may (graciously) consider passing some bitcoin goodies to this address `14FZTgfX4QmDGUoXYpSUdKFJEjbvQnArAu`.

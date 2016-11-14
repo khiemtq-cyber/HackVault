@@ -28,7 +28,7 @@ Open your terminal (preferably from Kali Linux) and execute the script below usi
 ```shell
 sudo python AutoRecon.py example.com
 ```
-###### P.S. Root privileges are required.
+###### P.S. Root privileges are required. Additionally, if you'd like to save the output into a file, you may use `sudo python AutoRecon.py example.com >> output.txt`.
 
 ## Code:
 ```python

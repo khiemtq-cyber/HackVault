@@ -14,7 +14,7 @@ Given a domain name, the code below automates the reconnaissance process of web 
 * Subnet active hosts
 * Unprotected config files
 * Frameworks used (if any)
-* Known vulnerabilities (e.g. [Shellshock](https://en.wikipedia.org/wiki/Shellshock_(software_bug)), [Heartbleed](https://en.wikipedia.org/wiki/Heartbleed))
+* Known vulnerabilities (e.g., [Shellshock](https://en.wikipedia.org/wiki/Shellshock_(software_bug)), [Heartbleed](https://en.wikipedia.org/wiki/Heartbleed), el al.)
 
 ## Dependencies:
 ###### All dependencies come preinstalled on Kali Linux 1.0 and later versions.

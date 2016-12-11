@@ -8,8 +8,8 @@ Given a domain name, the code below automates the reconnaissance process of web 
 * Directories
 * SSL ciphers
 * SPF records
-* WHOIS records
 * Service banner
+* WHOIS records
 * WAFs used (if any)
 * Subnet active hosts
 * Unprotected config files

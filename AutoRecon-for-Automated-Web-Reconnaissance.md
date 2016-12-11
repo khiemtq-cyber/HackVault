@@ -5,11 +5,11 @@ Reconnaissance being the first step of every web application pentest, it's a rep
 Given a domain name, the code below automates the reconnaissance process of web hacking. It simply collects various information about the target domain name. That includes (but not limited to): 
 * Subdomains
 * Open ports
-* SSL ciphers
-* HTTP banner
 * Directories
+* SSL ciphers
 * SPF records
 * WHOIS records
+* Service banner
 * WAFs used (if any)
 * Subnet active hosts
 * Unprotected config files
@@ -55,7 +55,7 @@ def main():
     dig_cmd = ['dig', '-t', 'txt', '+short', domain]
     wpscan_cmd = ['wpscan', '--force', '--update', '--url', domain]
     nmap_hosts_cmd = ['nmap', '-sn', ip_address + '/24']
-    nmap_script_names = ('dns-brute, hostmap-ip2hosts, banner,'
+    nmap_script_names = ('dns-brute, hostmap-ip2hosts, banner, http-headers,'
                          'http-robots.txt, http-crossdomainxml, http-enum,'
                          'http-config-backup, http-devframework, http-methods,'
                          'http-waf-fingerprint, http-sitemap-generator,'

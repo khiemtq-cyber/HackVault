@@ -17,7 +17,7 @@ Given a domain name, the code below automates the reconnaissance process of web 
 * Known vulnerabilities (e.g., [Shellshock](https://en.wikipedia.org/wiki/Shellshock_(software_bug)), [Heartbleed](https://en.wikipedia.org/wiki/Heartbleed), el al.)
 
 ## Dependencies:
-###### All dependencies come preinstalled on Kali Linux 1.0 and later versions.
+###### All dependencies come preinstalled on Kali Linux 1.x and later versions.
 * [DIG](https://en.wikipedia.org/wiki/Dig_(command))
 * [Nmap](https://nmap.org)
 * [WHOIS](https://en.wikipedia.org/wiki/WHOIS#Software)

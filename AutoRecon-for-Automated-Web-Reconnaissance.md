@@ -107,7 +107,7 @@ if __name__ == '__main__':
 ```
 
 ## Screenshot(s):
-[![terminal.jpg](https://s3.postimg.org/fg0j4bi8j/terminal.jpg)](https://s3.postimg.org/fg0j4bi8j/terminal.jpg)
-[![AutoRecon.png](https://s14.postimg.org/nq01wywdt/Auto_Recon.png)](https://postimg.org/image/ei7tg9pbh/)
+[![terminal.png](https://s27.postimg.org/jd3xoyl6r/terminal.png)](https://postimg.org/image/8qa4jjd1b/)
+[![terminal2.png](https://s27.postimg.org/oe8h70hqr/terminal2.png)](https://postimg.org/image/4jmfkw2j3/)
 ## Bottom Line:
 If you find the stuff in this repo very helpful, you may (graciously) consider passing some bitcoin goodies to this address `14FZTgfX4QmDGUoXYpSUdKFJEjbvQnArAu`.

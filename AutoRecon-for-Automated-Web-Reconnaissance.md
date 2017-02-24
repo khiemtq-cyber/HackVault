@@ -109,5 +109,5 @@ if __name__ == '__main__':
 ## Screenshot(s):
 [![terminal.png](https://s27.postimg.org/jd3xoyl6r/terminal.png)](https://postimg.org/image/8qa4jjd1b/)
 [![terminal2.png](https://s28.postimg.org/5jakqmwal/terminal2.png)](https://postimg.org/image/upbixgxkp/)
-## Bottom Line:
+## Footnote:
 If you find the stuff in this repo very helpful, you may (graciously) consider passing some bitcoin goodies to this address `14FZTgfX4QmDGUoXYpSUdKFJEjbvQnArAu`.

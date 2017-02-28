@@ -37,6 +37,11 @@ sudo python AutoRecon.py example.com
 """
 Automate the reconnaissance process of web hacking.
 """
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
+"""
+Automate the reconnaissance process of web hacking.
+"""
 import sys
 import socket
 import subprocess
@@ -58,12 +63,11 @@ def main():
     dig_cmd = ['dig', '-t', 'txt', '+short', domain]
     wpscan_cmd = ['wpscan', '--force', '--update', '--url', domain]
     nmap_hosts_cmd = ['nmap', '-sn', ip_address + '/24']
-    nmap_script_names = ('*-brute, banner, ftp-*, hostmap-ip2hosts,'
-                         'http-config-backup, http-cross*, http-devframework,'
-                         'http-enum, http-headers, http-methods, http-robots.txt,'
+    nmap_script_names = ('*-vuln*, banner, default, dns-brute,'
+                         'dns-zone-transfer, ftp-*, hostmap-ip2hosts, http-config-backup,'
+                         'http-cross*, http-devframework, http-enum, http-headers,'
                          'http-shellshock, http-sitemap-generator, http-waf-fingerprint,'
-                         'http-xssed, smtp-*, ssl-cert, ssl-enum-ciphers,'
-                         'ssl-heartbleed, ssl-poodle')
+                         'http-xssed, smtp-*, ssl-*, version')
     nmap_full_cmd = ['nmap', '-sV', '-sS', '-A', '-Pn', '--script',
                      nmap_script_names, domain]
     cmds = {'TXT Records': dig_cmd, 'WHOIS Info': whois_cmd,

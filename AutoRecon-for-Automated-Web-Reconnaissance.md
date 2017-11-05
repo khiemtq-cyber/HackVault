@@ -37,11 +37,6 @@ sudo python AutoRecon.py example.com
 """
 Automate the reconnaissance process of web hacking.
 """
-#!/usr/bin/env python2
-# -*- coding: utf-8 -*-
-"""
-Automate the reconnaissance process of web hacking.
-"""
 import sys
 import socket
 import subprocess

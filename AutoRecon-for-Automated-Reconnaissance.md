@@ -1,8 +1,8 @@
 ## Foreword:
-Reconnaissance being the first step of every web application pentest, it's a repetitive process that's to be done in a systematic way. Thus, it's most beneficial to try automating it as much as possible. So, it turns out that in just about 70 lines of code, we might simply achieve that very objective!
+Reconnaissance being the first step in every security assessment, it's a repetitive process that's to be done in a systematic way. Thus, it's most beneficial to try automating it as much as possible. So, it turns out that in just about 70 lines of code, we might simply achieve that very objective!
 
 ## What is this all about?
-Given a domain name, the code below automates the reconnaissance process of web hacking. It simply collects various information about the target domain name. That includes (but not limited to): 
+Given a domain name, the code below attempts to automate the reconnaissance process in security assessments. It simply collects various information about the target domain name. That includes (but not limited to): 
 * Subdomains
 * Open ports
 * Directories

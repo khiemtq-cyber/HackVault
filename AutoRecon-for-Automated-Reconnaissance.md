@@ -32,11 +32,12 @@ sudo python AutoRecon.py example.com
 
 ## Code:
 ```python
-#!/usr/bin/env python2
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Automate the reconnaissance process of web hacking.
+Automate the reconnaissance process, given a domain name.
 """
+from __future__ import absolute_import, print_function
 import sys
 import socket
 import subprocess
@@ -48,10 +49,10 @@ def main():
         domain = sys.argv[1]
         ip_address = socket.gethostbyname(domain)
     except IndexError:
-        print 'Error: Domain name not specified.'
+        print('Error: Domain name not specified.')
         sys.exit(1)
     except socket.gaierror:
-        print 'Error: Domain name cannot be resolved.'
+        print('Error: Domain name cannot be resolved.')
         raise
     procs = []
     whois_cmd = ['whois', domain]
@@ -72,11 +73,11 @@ def main():
     def handle_proc(proc):
         """Handle subprocesses outputs."""
         separator = '=================='
-        output = ''.join(proc.stdout.readlines())
-        print proc.title
-        print separator
-        print output.strip()
-        print separator + '\n'
+        output = b''.join(proc.stdout.readlines()).decode('utf-8')
+        print(proc.title)
+        print(separator)
+        print(output.strip())
+        print(separator + '\n')
         procs.remove(proc)
 
     for title, cmd in cmds.items():
@@ -85,7 +86,7 @@ def main():
             proc.title = title
             procs.append(proc)
         except OSError:
-            print '%s >> Dependency error occurred.\n' % title
+            print('%s >> Dependency error occurred.\n' % title)
 
     while True:
         for proc in procs:
@@ -94,15 +95,14 @@ def main():
                 handle_proc(proc)
             else:
                 continue
-        if len(procs) == 0:
+        if not procs:
             break
         else:
             sleep(1)
 
 if __name__ == '__main__':
-    print 'This is gonna take quite a while; you better go make some coffee!\n'
+    print('This is gonna take quite a while; you better go make some coffee!\n')
     main()
-
 ```
 
 ## Screenshot(s):

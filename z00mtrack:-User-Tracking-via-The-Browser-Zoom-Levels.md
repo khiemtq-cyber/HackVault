@@ -135,7 +135,7 @@ As you can see, the demo calculates a unique signature using very simple arithme
 * Two visitors could probably end up with the same signature, but they would need to have the same zoom level, screen resolution, display device model, browser engine, window dimensions, and also visit within the same time frame. Note, however, that this approach is not intended to be used on its own but in conjunction with other methods.
 
 
-## Countermeasures
+## Countermeasures:
 
 Alternating between different user profiles might mitigate this, but you cannot as easily change your behavior. If you find the text to be too small on a frequently visited website, you'll have to zoom back again to the same zoom level that makes your eyes comfortable (and you end up with the same signature again).
 
@@ -147,7 +147,7 @@ A simple mitigation for this technique is to change the default configurations o
 There's no equivalent setting for Chrome that I'm aware of, but you can easily wipe out preserved zoom levels by heading to "chrome://settings/content/zoomLevels".
 
 
-## Conclusion
+## Conclusion:
 It's become quite clear that evading user tracking completely is almost impossible to achieve these days. User tracking techniques will continue to evolve even further, and the tools the users have to combat against that are rather limited—awareness being the most effective tool we have.
 
 Now I could probably do some math and an empirical study then turn this into a research paper, but I'd rather leave that as an exercise for the academics (too busy with another research project at the moment). 

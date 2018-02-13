@@ -1,5 +1,5 @@
 ## Background:
-User-tracking techniques have been widely in use for a very long time. In the very beginning, it was as easy as collecting your public IP address or storing a unique identifier in a browser cookie. But with the rapid growth of the web, these methods were no longer enough. IP addresses became very dynamic, and browser cookies could easily be wiped out clean—even with powerful approaches like [evercookie](https://samy.pl/evercookie).
+User-tracking techniques have been widely in use for a very long time. In the very beginning, it was as easy as collecting your public IP address or storing a unique identifier in a browser cookie. But with the rapid growth of the web, these methods were no longer enough. IP addresses became very dynamic, and browser cookies could easily be wiped out clean (even with powerful approaches like [evercookie](https://samy.pl/evercookie)).
 
 So it was about time for passive user-tracking techniques such as browser fingerprinting to evolve—bits of data ranging from your installed plugins, fonts, user-agent headers, screen resolution, time zone, and what not could be used to construct a unique, stateless user-tracking identifier for each website visitor. Things kept evolving until we reached cross-browser, and even cross-device, tracking techniques with varying accuracy and reliability degrees.
 

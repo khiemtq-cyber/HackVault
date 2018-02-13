@@ -130,7 +130,7 @@ As you can see, the demo calculates a unique signature using very simple arithme
 
 * Changing the screen resolution or the browser window dimensions might change your signature, but that's not quite a volatile setting. How many times did you change your screen resolution last year? Probably never?!
 
-* Adding a third host under our control to the mix, a user who zooms in or out will end up with an even more unique signature (think of Triangulation).
+* Adding a third host under our control to the mix, a user who zooms in or out will end up with an even more unique signature (think of "triangulation").
 
 * Two visitors could probably end up with the same signature, but they would need to have the same zoom level, screen resolution, display device model, browser engine, window dimensions, and also visit within the same time frame. Note, however, that this approach is not intended to be used on its own but in conjunction with other methods.
 

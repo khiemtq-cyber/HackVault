@@ -9,7 +9,7 @@ While working on an unrelated project, I noticed that most web browsers preserve
 
 Simply put, in stateless tracking techniques, every single bit of information that we collect adds more uniqueness to the calculated identifier. The right question here to ask is, how can we detect the current zoom levels for a given host?
 
-There's no standard browser API that would tell us directly what the current zoom level for a website is (is there?). But luckily, some property values such as the `window.devicePixelRatio` can indirectly reflect the current zoom level.
+There's no standard browser API that would tell us directly what the current zoom level for a website is (is there?). But luckily, some property values such as `window.devicePixelRatio` can indirectly reflect the current zoom level.
 
 The value of the `window.devicePixelRatio` property is simply the ratio between the screen resolution in physical pixels to the screen resolution in CSS pixels for the current display device. On most display devices, this property returns 1 at a one hundred percent zoom level. But on retina displays on the other hand, the value is 2 by default.
 

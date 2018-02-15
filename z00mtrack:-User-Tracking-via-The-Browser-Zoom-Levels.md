@@ -123,7 +123,7 @@ app.all('/', (req, res) => res.send(`
 app.listen(PORT);
 ```
 
-As you can see, the demo calculates a unique signature using very simple arithmetic operations on `window.devicePixelRatio`, `screen.width`, `screen.height`, `window.innerHeight`. And by utilizing two separate hostnames, we can simply rule out the default value for `window.devicePixelRatio` so that we avoid false positives....
+As you can see, the demo calculates a unique signature using very simple arithmetic operations on `window.devicePixelRatio`, `screen.width`, `screen.height`, and `window.innerHeight`. And by utilizing two separate hostnames, we can simply rule out the default value for `window.devicePixelRatio` so that we avoid false positives....
 
 ### Notes:
 * The full source code for this demo is publicly available at [z00mtrack](https://github.com/0xSobky/z00mtrack) and [z00mdetect](https://github.com/0xSobky/z00mdetect).

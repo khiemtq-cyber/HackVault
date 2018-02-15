@@ -13,7 +13,7 @@ There's no standard browser API that would tell us directly what the current zoo
 
 The value of the `window.devicePixelRatio` property is simply the ratio between the screen resolution in physical pixels to the screen resolution in CSS pixels for the current display device. On most display devices, this property returns 1 at a one hundred percent zoom level. But on retina displays on the other hand, the value is 2 by default.
 
-You might expect the ratio to be consistent across browsers, but on my testing machine at a 110% zoom level, the ratio was different between Chrome and Firefox—`1.100000023841858` and `1.0909090909090908` respectively. After some Googling, I found a small list of sample values for the `window.devicePixelRatio` in this GitHub gist "https://gist.github.com/cheeaun/8838438".
+You might expect the ratio to be consistent across browsers, but on my testing machine at a 110% zoom level, the ratio was different between Chrome and Firefox—`1.100000023841858` and `1.0909090909090908` respectively. After some Googling, I found a small list of sample values for the `window.devicePixelRatio` property in this GitHub gist "https://gist.github.com/cheeaun/8838438".
 
 So not only this value can be unique for each display device, but also for each browser engine. Yet on some web browsers such as Apple's Safari, the ratio is not affected by the current zoom level whatsoever. So as a workaround, and for additional entropy, we take the ratio between `screen.height` and `window.innerHeight` into account as well.
 
@@ -26,7 +26,7 @@ It's also worth mentioning that the default zoom levels available in both Chrome
 
 
 ## PoC||GTFO:
-##### You can find an online demo demonstrating this approach at:
+##### You can find a live demo demonstrating this approach at:
 [https://z00mtrack.herokuapp.com](https://z00mtrack.herokuapp.com)
 
 ##### The source code for this demo is written in JavaScript and is divided into two separate Node.js apps:

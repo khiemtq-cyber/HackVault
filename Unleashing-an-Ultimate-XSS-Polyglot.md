@@ -1,5 +1,5 @@
 
-## Foreground:
+## Foreword:
 When it comes to testing for cross-site scripting vulnerabilities (a.k.a. XSS), you’re generally faced with a variety of injection contexts where each of which requires you to alter your injection payload so it suites the specific context at hand. This can be too tedious and time consuming in most cases, but luckily, XSS polyglots can come in handy here to save us a lot of time and effort.
 
 ***

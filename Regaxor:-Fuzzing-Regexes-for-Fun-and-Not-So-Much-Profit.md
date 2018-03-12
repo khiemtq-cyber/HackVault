@@ -2,7 +2,7 @@
 
 #### Note: If you don't like bug bounty drama, feel free to skip this part.
 
-It all started with the public disclosure of a [HackerOne report](https://hackerone.com/reports/307672) submitted to [Keybase](https://hackerone.com/keybase) by another researcher. It was a minor character escaping issue, but one that probably had the highest impact of all vulnerability reports submitted to their program—given that it was issued their highest bounty payout at the time. I immediately noticed the "[patch](https://github.com/keybase/client/pull/10277/files)" they implemented was insufficient, and it was only a matter of minutes before I submitted a new vulnerability report (as quickly and as fast as possible). Later, they received 4 duplicate reports of the same issue—but I'm pretty sure mine was first despite their total lack of transparency [1].
+It all started with the public disclosure of a [HackerOne report](https://hackerone.com/reports/307672) submitted to [Keybase](https://hackerone.com/keybase) by another researcher. It was a minor character escaping issue, but one that probably had the highest impact of all vulnerability reports submitted to their program—given that it was issued their highest bounty payout at the time. I immediately noticed the "[patch](https://github.com/keybase/client/pull/10277/files)" they implemented was insufficient, and it was only a matter of minutes before I submitted a new vulnerability report (as quickly and as fast as possible). Later, they received 4 duplicate reports of the same issue. But I'm pretty sure mine was first despite their total lack of transparency [1].
 
 Long story short, they handled my report in a totally unprofessional manner to the point that it was my worst experience participating in a bug bounty program. They even went as far as to reopen my report and mark it as a duplicate of another that was submitted after mine, rewarding it too, just because I later criticized the way they handled this—very politely and in passive language. They wouldn't agree to disclose my report, so I had to export it externally for those who would like to [take a look](https://drive.google.com/file/d/1ZPZsnxEHIXGZ5rGv1cxq3rLDLZD7GO3o/view). Not cool, not cool at all. The only good thing that came out of this mess was the regex fuzzing tool that I'm going to talk about here.
 
@@ -308,7 +308,9 @@ let regaxor = (str, re, literalFlag) => {
 
 ```
 
-There's also a dedicated GitHub repository at [https://github.com/0xSobky/Regaxor](https://github.com/0xSobky/Regaxor). Feel free to contribute in any way.
+There's also a dedicated GitHub repository at: [https://github.com/0xSobky/Regaxor](https://github.com/0xSobky/Regaxor).
+
+Feel free to contribute in any way.
 
 Here's a screenshot of the tool in action:
 [![screenshot.png](https://github.com/0xSobky/Regaxor/raw/master/data/images/screenshot.png)](https://github.com/0xSobky/Regaxor/raw/master/data/images/screenshot.png)

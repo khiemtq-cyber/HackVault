@@ -320,4 +320,4 @@ As the code is already documented, and the UI is simple enough, I guess there's 
 
 ## Footnotes
 
-1. The report IDs on [HackerOne](https://hackerone.com/) are sequential and global, meaning that a report with the ID "309567" precedes a report with the ID "309576". Typically, when a report is a duplicate of another, the researcher who submitted the duplicate report is invited to participate in the original one; timestamps do not lie.
+1. Report IDs on [HackerOne](https://hackerone.com/) are sequential and global, meaning that a report with the ID "309567" precedes a report with the ID "309576". Typically, when a report is a duplicate of another, the researcher who submitted the duplicate report is invited to participate in the original one; timestamps do not lie.
